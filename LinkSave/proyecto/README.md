@@ -4,7 +4,7 @@ App nativa en español para descargar videos a partir de enlaces. Android 10 o s
 
 ## Instalar y usar
 
-1. Abre el APK en tu Android. Si el sistema lo pide, permite a tu navegador o gestor de archivos instalar esta app.
+1. Descarga el APK correspondiente al procesador de tu Android (ARM64 para la mayoría de teléfonos actuales) y ábrelo. Si el sistema lo pide, permite a tu navegador o gestor de archivos instalar esta app.
 2. Abre LinkSave y pega un enlace; también puedes usar Compartir → LinkSave desde otra app.
 3. Selecciona la calidad máxima y pulsa Descargar video.
 4. Los archivos aparecen en Descargas/LinkSave. Puedes abrirlos desde Ver videos descargados.
@@ -23,7 +23,7 @@ Los enlaces se envían directamente a sus sitios de origen y servidores multimed
 
 ## Compilar
 
-Requiere JDK 17 o 21 y Android SDK 35. Abre el proyecto en Android Studio o configura `ANDROID_HOME` y ejecuta `./gradlew assembleDebug`. No se incluye local.properties porque contiene una ruta específica del entorno de compilación.
+Requiere JDK 17 o 21 y Android SDK 35. Abre el proyecto en Android Studio o configura `ANDROID_HOME` y ejecuta `./gradlew assembleDebug`. Se generan APK separados por procesador en `app/build/outputs/apk/debug/`. No se incluye local.properties porque contiene una ruta específica del entorno de compilación.
 
 Dependencias principales: Android Gradle Plugin 8.9.1, Gradle 8.11.1 y youtubedl-android 0.18.1. El APK entregado usa una firma de desarrollo; no es una publicación en Play Store.
 

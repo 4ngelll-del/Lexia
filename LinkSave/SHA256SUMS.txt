@@ -1,1 +1,3 @@
-6fc7fc30fada2e438e59ad987eadf6bcb78a1ebdf75de5c0f7eb91038ad93fa4  LinkSave-1.0.apk
+7677329bcdc0fcc3cca907dfbf92d3f877de8b0e9377c4f85265841d14f3dd61  LinkSave-arm64-v8a.apk
+7953c52795643d0246f7a17a8eb9017e06286b4db4613ad46807c1cec89eac97  LinkSave-armeabi-v7a.apk
+4dff864ffdd3e71f81ab249484cbd891ca500e8402933874386b3c589fa2e1de  LinkSave-x86_64.apk

@@ -4,9 +4,12 @@ Descargador de videos mediante enlaces, con interfaz en español. Android 10 o s
 
 ## Descargar e instalar
 
-**[Descargar LinkSave-1.0.apk (158 MB)](https://github.com/4ngelll-del/Lexia/releases/download/linksave-v1.0/LinkSave-1.0.apk)**
+**[Descargar LinkSave para Android ARM64](https://github.com/4ngelll-del/Lexia/raw/refs/heads/main/LinkSave/downloads/LinkSave-arm64-v8a.apk)** — opción recomendada para la mayoría de teléfonos actuales.
 
-[Ver la publicación y todos los archivos](https://github.com/4ngelll-del/Lexia/releases/tag/linksave-v1.0)
+Otros procesadores:
+
+- [Android ARM de 32 bits](https://github.com/4ngelll-del/Lexia/raw/refs/heads/main/LinkSave/downloads/LinkSave-armeabi-v7a.apk)
+- [Android x86_64](https://github.com/4ngelll-del/Lexia/raw/refs/heads/main/LinkSave/downloads/LinkSave-x86_64.apk) — algunos emuladores y dispositivos Intel.
 
 1. Abre la descarga en un teléfono Android.
 2. Si Android lo solicita, permite a tu navegador o gestor de archivos instalar esta aplicación.
@@ -26,6 +29,6 @@ Un APK no se instala en iPhone. Puedes descargarlo desde una computadora y trans
 
 ## Código fuente
 
-El proyecto completo está en [proyecto/](proyecto/), incluyendo las instrucciones para compilar y la licencia GPL-3.0. [Descargar el código fuente en ZIP](https://github.com/4ngelll-del/Lexia/releases/download/linksave-v1.0/LinkSave-codigo-fuente.zip).
+El proyecto completo está en [proyecto/](proyecto/), incluyendo las instrucciones para compilar y la licencia GPL-3.0. [Descargar el código fuente en ZIP](downloads/LinkSave-codigo-fuente.zip).
 
-El APK está adjunto a la publicación porque supera el límite de 100 MiB para archivos normales de GitHub. Su suma de comprobación está en [SHA256SUMS.txt](SHA256SUMS.txt).
+Los APK se distribuyen por procesador para que cada archivo sea menor de 100 MiB. Las sumas de comprobación están en [SHA256SUMS.txt](SHA256SUMS.txt).
